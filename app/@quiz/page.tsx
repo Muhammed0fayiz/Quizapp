@@ -39,7 +39,7 @@ export default function Quiz() {
         e.answers = [...value];
         return e;
       });
-      console.log(shuffledResults, "shuffeled");
+      console.log(shuffledResults, " shuffeled");
       setQuestions([...shuffledResults]);
       setLoading(false);
     }
